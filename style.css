@@ -1,46 +1,61 @@
 body {
-    color: #c7614b;
-    font-family: 'Advent Pro';
+   background-color: #892f2f; 
+   margin: 0px;
+   color: #fdf5ed;
+   font-family: 'Advent Pro';
   }
-.nav-menu {
-      float: right;
-      padding-right: 20px;
-  }
+div.nav-container {
+    overflow: auto;
+    zoom: 1;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+div.nav-menu {
+    float: right;
+}
+h1.home {
+    line-height: 10px;
+}
 .nav-menu a {
     text-decoration: none;
-    color: #c7614b;
+    color: #fdf5ed;
 }
 .nav-menu ul li {
       display: inline;
       padding: 0px 8px 0px 8px;
       margin: 0px 8px 0px 8px;
-      line-height: 50px;
   }
-div.nav-container {
-    overflow: auto;
-    zoom: 1;
-  }
-h1.home {
-    line-height: 30px;
-    padding-left: 20px;
+.nav-section {
+    background: #892f2f;
+    position: fixed;
+    z-index: 1;
+    height: 30px;
+    width: 100%;
+    padding-bottom: 25px;
+    top:0;
 }
 .nav-menu ul li:hover {
     border-bottom: solid 1px;
 }
 section {
     height: 400px;
+    width: 100%;
 }
 h2 {
-    padding: 20px;
+    padding: 20px 20px 20px 20px;
 }
 p {
     padding-left: 20px;
 }
-section.about-section {
-    background-color: #6aadad;
-    margin-left: 0px;
-    margin-right: 0px;
-    color: white;
+section.about-section{
+    background-color: #892f2f;
+    color: #fdf5ed;
+    margin-top: 60px;
+}
+section.skills-section{
+    background-color: #fdf5ed;
+    color: #892f2f;
+    margin-top: 60px;
 }
 .var-highlight{
 	color: #ffffeb;
