@@ -1,3 +1,23 @@
 body {
-    background: blue;
+    color: #346B74;
+    font-family: 'Advent Pro';
   }
+  .nav-menu {
+      float: right;
+  }
+  .nav-menu ul li {
+      display: inline;
+      padding-right: 10px;
+      padding-left: 10px;
+      line-height: 30px;
+  }
+  div.nav-container {
+    overflow: auto;
+    zoom: 1;
+  }
+h1 #home {
+    line-height: 30px;
+}
+.nav-menu ul li:hover {
+    border-bottom: solid 1px;
+}
