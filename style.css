@@ -1,23 +1,75 @@
 body {
-    color: #346B74;
+    color: #c7614b;
     font-family: 'Advent Pro';
   }
-  .nav-menu {
+.nav-menu {
       float: right;
+      padding-right: 20px;
   }
-  .nav-menu ul li {
+.nav-menu a {
+    text-decoration: none;
+    color: #c7614b;
+}
+.nav-menu ul li {
       display: inline;
-      padding-right: 10px;
-      padding-left: 10px;
-      line-height: 30px;
+      padding: 0px 8px 0px 8px;
+      margin: 0px 8px 0px 8px;
+      line-height: 50px;
   }
-  div.nav-container {
+div.nav-container {
     overflow: auto;
     zoom: 1;
   }
-h1 #home {
+h1.home {
     line-height: 30px;
+    padding-left: 20px;
 }
 .nav-menu ul li:hover {
     border-bottom: solid 1px;
+}
+section {
+    height: 400px;
+}
+h2 {
+    padding: 20px;
+}
+p {
+    padding-left: 20px;
+}
+section.about-section {
+    background-color: #6aadad;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+.var-highlight{
+	color: #ffffeb;
+}
+.string-highlight{
+	color: #f7c548;
+}
+#typewriter{
+		font-size: 18px;
+		margin: 0;
+		font-family: "Advent Pro";
+
+		&:after{
+			content: "|";
+			animation: blink 500ms linear infinite alternate;
+		}
+}
+
+@-webkit-keyframes blink{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+@-moz-keyframes blink{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+@keyframes blink{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
 }

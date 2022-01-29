@@ -3,7 +3,6 @@
   <head> 
     <link rel="stylesheet" href="style.css"/>
     <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Personal Website Practice</title>
   </head>
   <body>
@@ -11,18 +10,46 @@
           <div class="nav-container">
             <div class="nav-menu">
                 <ul>
-                    <li>Home</li>
-                    <li>Porfolio</li>
-                    <li>Contact</li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#contact" id="end-nav">Contact</a>
+                    </li>
                 </ul>
             </div>
-            <h1 class="animate__animated animate__swing">Kyrstin Kempf</h1>
+            <h1 class="home">Kyrstin Kempf</h1>
           </div>
       </section>
       <section class="about-section">
-     
+          <div id="about">
+              <h2>About</h2>
+              <p>Hello, I am Kyrstin Kempf. (Pronounced Kear-stin.)</p>
+                <pre id="typewriter">
+                <span class="var-highlight">let</span> object = {
+                    name: <span class="string-highlight">Kyrstin Kempf</span>,  
+                    title: <span class="string-highlight">Full-Stack Web Developer</span>,
+                    based in: <span class="string-highlight">Washington, D.C.</span>,
+                    languages:<span class="string-highlight">Javascript</span>,
+                    <span class="string-highlight">HTML</span>,
+                    <span class="string-highlight">CSS</span>;
+                    }; </pre>
+            
+          </div>
       </section>
-    <h1>Let's do this!</h1>
+      <section class="skills-section">
+          <div id="skills">
+              <h2>Skills</h2>
+          </div>
+      </section>
+      <section class="contact-section">
+          <div id="contact">
+              <h2>Contact</h2>
+          </div>
+      </section>
     <script src="script.js"></script>
   </body>
 </html>
