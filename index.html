@@ -24,9 +24,7 @@
             <h1 class="home">Kyrstin Kempf</h1>
           </div>
       </section>
-      <section class="about-section">
-          <div id="about">
-              <h2>About</h2>
+      <section class="about-section" id="about">
               <p>Hello, I am Kyrstin Kempf. (Pronounced Kear-stin.)</p>
                 <pre id="typewriter">
                 <span class="var-highlight">let</span> object = {
@@ -37,17 +35,32 @@
                     <span class="string-highlight">HTML</span>,
                     <span class="string-highlight">CSS'</span>;
                     }; </pre>
-            
           </div>
       </section>
-      <section class="skills-section">
-          <div id="skills">
-              <h2>Skills</h2>
-          </div>
+      <section class="skills-section" id="skills">
       </section>
-      <section class="contact-section">
-          <div id="contact">
-              <h2>Contact</h2>
+      <section class="contact-section" id="contact">
+              <h2>I would love to talk!</h2>
+              <p>Send me a message and I'll get back to you as soon as possible.</p>
+              <div class="container">
+                <form action="action_page.php">
+                
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname">
+                        
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname">
+                
+                <label for="email">Email Address</label>
+                <input type="text" id="email" name="email">
+                    
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" style="height:200px"></textarea>
+              
+                <input type="submit" value="Submit">
+              
+                </form>
+              </div>
           </div>
       </section>
     <script src="script.js"></script>
