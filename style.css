@@ -51,11 +51,17 @@ section.about-section{
     margin-top: 60px;
     padding-top: 50px;
     scroll-margin-top: 3em;
+    margin-bottom: 20px;
 }
 section.contact-section{
     background-color: #f2f2f2;
     scroll-margin-top: 3em;
     height: auto;
+}
+section.skills-section {
+    background: #6aadad;
+    margin-bottom: -25px;
+    color: #fff;
 }
 /* scrolling object text */
 .var-highlight{
@@ -65,17 +71,16 @@ section.contact-section{
 	color: #6aadad;
 }
 #typewriter{
-		font-size: 18px;
-		margin: 0;
-		font-family: "Advent Pro";
-        height: 160px;
+	font-size: 18px;
+	margin: 0;
+	font-family: "Advent Pro";
+    height: 160px;
 
-		&:after{
-			content: "|";
-			animation: blink 500ms linear infinite alternate;
-		}
+	&:after {
+	content: "|";
+	animation: blink 500ms linear infinite alternate;
 }
-
+}
 @-webkit-keyframes blink{
 	0%{opacity: 0;}
 	100%{opacity: 1;}
@@ -142,4 +147,18 @@ div button.resumeBtn {
     background: #509191;
     color: #fff;
     cursor: pointer;
+}
+/*skills grid*/
+.skills-section .skills-container .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.skills-section .skills-container .grid div {
+    border: 1px solid #000;
+    border-radius: 2px;
+    padding: 5px;
+    width: 100%;
+}
+.skills-container ul li {
+    list-style-type:none;
 }
