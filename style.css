@@ -1,7 +1,6 @@
 body { 
    margin: 0px;
    font-family: 'Advent Pro';
-   color: #c36847;
   }
 div.nav-container {
     overflow: auto;
@@ -14,11 +13,11 @@ div.nav-menu {
 }
 h1.home {
     line-height: 10px;
-    color: #c36847;
+    color: #fff;
 }
 .nav-menu a {
     text-decoration: none;
-    color: #c36847;
+    color: #fff;
     font-size: 22px;
 }
 .nav-menu ul li {
@@ -33,13 +32,13 @@ h1.home {
     width: 100%;
     padding-bottom: 25px;
     top:0;
-    background-color: #ffffff;
+    background-color: #6aadad;
 }
 .nav-menu ul li:hover {
-    border-bottom: solid 1px #c36847;
+    border-bottom: solid 1px #fff;
 }
 section {
-    height: 500px;
+    height: auto;
     width: 100%;
 }
 h2 {
@@ -50,22 +49,26 @@ p {
 }
 section.about-section{
     margin-top: 60px;
-    scroll-margin-top: 4em;
+    padding-top: 50px;
+    scroll-margin-top: 3em;
 }
 section.contact-section{
     background-color: #f2f2f2;
-    scroll-margin-top: 4em;
+    scroll-margin-top: 3em;
+    height: auto;
 }
+/* scrolling object text */
 .var-highlight{
-	color: #ffffeb;
+	color: #FFDB66;
 }
 .string-highlight{
-	color: #f7c548;
+	color: #6aadad;
 }
 #typewriter{
 		font-size: 18px;
 		margin: 0;
 		font-family: "Advent Pro";
+        height: 160px;
 
 		&:after{
 			content: "|";
@@ -90,7 +93,7 @@ section.contact-section{
 /* Form*/
 input[type=text], select, textarea {
     width: 100%;
-    padding: 12px 12px 12px 30px;
+    padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
@@ -100,18 +103,43 @@ input[type=text], select, textarea {
     font-family: 'Advent Pro';
 }
 input[type=submit] {
-    background-color: #c36847;
+    background-color: #6aadad;
     color: white;
-    padding: 12px 20px;
+    padding: 12px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 input[type=submit]:hover {
-    background-color: #ac4b35;
+    background-color: #509191;
 }
 .container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+    margin: 0 300px 0 300px;
+}
+/* button */
+div button.resumeBtn {
+    margin-left: 30px;
+}
+.about-section button {
+    background: #6aadad;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 10px;
+    padding: 9px 22px;
+    width: 130px;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    border: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.about-section button:hover {
+    background: #509191;
+    color: #fff;
+    cursor: pointer;
 }
