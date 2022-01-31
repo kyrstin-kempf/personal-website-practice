@@ -1,4 +1,11 @@
-
+/* mouseover*/
+function mouseOver() {
+    document.getElementById("demo").style.color = "#6aadad";
+}
+function mouseOut() {
+    document.getElementById("demo").style.color = "white";
+}
+/* scrolling text */
 function setupTypewriter(t) {
     var HTML = t.innerHTML;
 
@@ -70,10 +77,3 @@ typewriter = setupTypewriter(typewriter);
 
 typewriter.type();
 
-/* mouseover*/
-function mouseOver() {
-    document.getElementById("demo").style.color = "#6aadad";
-}
-function mouseOut() {
-    document.getElementById("demo").style.color = "white";
-}
