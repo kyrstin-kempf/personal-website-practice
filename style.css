@@ -51,12 +51,13 @@ section.about-section{
     margin-top: 60px;
     padding-top: 50px;
     scroll-margin-top: 3em;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 section.contact-section{
     background-color: #f2f2f2;
     scroll-margin-top: 3em;
     height: auto;
+    padding-top: 20px;
 }
 section.skills-section {
     background: #6aadad;
@@ -152,11 +153,14 @@ div button.resumeBtn {
 .skills-section .skills-container .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.skills-section .skills-container .grid h2{
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 .skills-section .skills-container .grid div {
-    border: 1px solid #000;
-    border-radius: 2px;
-    padding: 5px;
     width: 100%;
 }
 .skills-container ul li {

@@ -69,3 +69,11 @@ var typer = document.getElementById('typewriter');
 typewriter = setupTypewriter(typewriter);
 
 typewriter.type();
+
+/* mouseover*/
+function mouseOver() {
+    document.getElementById("demo").style.color = "#6aadad";
+}
+function mouseOut() {
+    document.getElementById("demo").style.color = "white";
+}
